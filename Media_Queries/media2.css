@@ -1,0 +1,29 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.header{
+    background-color: black;
+    color:white;
+}
+
+.header{
+    padding:10px;
+}
+
+.child-container,.header{
+    display:flex;
+    justify-content:space-between;
+    gap:10px;
+    align-items:center;
+    font-size:32px;
+
+}
+
+@media(max-width:600px){
+    .child-container{
+        display:none;
+    }
+}
